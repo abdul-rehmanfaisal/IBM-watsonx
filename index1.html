@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#home" class="logo"> Abdul
+            <span>Rehman </span></a>
+
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+             
+            </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's<span> Abdul Rehman</span></h1>
+            <h3 class="text-animation"> let's  <span>
+
+
+            </span></h3><br>
+
+                <div class="social-icons">
+                    
+                    <a href="mailto:faisalabdulrehman97@gmail.com"><i class='bx bx-envelope'></i></i></a>
+                    <a href="https://www.linkedin.com/in/abdul-rehman-m-faisal-525b2b2a4"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="https://www.instagram.com/abdulrehman.faisal.129/?utm_source=ig_web_button_share_sheet"><i class='bx bxl-instagram-alt' ></i></a>
+
+ 
+                </div>
+
+              
+            </div>
+                <div class="home-img">
+                    <img src="driver_in_uae_dont_show_face.jpeg" alt="">
+                </div>
+    </section>
+   
+        <p class="copyright">
+            © <span>ARF</span> | All Rights Reserved 
+        </p>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "b70c5fd7-b178-4188-8613-ec81bba93e2f", // The ID of this integration.
+          region: "us-south", // The region your integration is hosted in.
+          serviceInstanceID: "aa2e4da9-ecbd-4e63-963a-9e56096f634c", // The ID of your service instance.
+          onLoad: async (instance) => { await instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
+   
+</body>
+</html>
